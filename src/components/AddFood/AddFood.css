@@ -1,0 +1,53 @@
+addFood-component {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+addFood-component .model {
+    display: block;
+    background-color: darkgreen;
+    margin-top: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    filter: drop-shadow(3px 3px 3px black);
+}
+
+addFood-component .selection {
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+addFood-component input {
+    width: 200px;
+    height: 34px;
+    font-size: 18px;
+    text-indent: 10px;
+}
+
+addFood-component select {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+addFood-component option {
+    text-indent: 10px;
+    font-size: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+addFood-component button {
+    height: 40px;
+    margin-left: 3px;
+}
